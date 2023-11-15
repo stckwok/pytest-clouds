@@ -1,2 +1,5 @@
 # pytest-clouds
-Pytest test FW
+Project using pytest for local VM (and AWS Cloud9)
+
+
+
