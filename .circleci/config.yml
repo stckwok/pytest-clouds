@@ -27,5 +27,5 @@ jobs:
 workflows:
   say-hello-workflow:
     jobs:
-      - say-hello
+      - say_hello
 
