@@ -1,12 +1,14 @@
 # CircleCI configuration file
 version: 2.1
 
+orbs:
+  python: circleci/python:3.9
+  
 jobs:
   # Job one with a unique name
   build_and_test: # this can be any name you choose
     executor: python/default
     steps:
-      - checkout
       - python/install-packages:
           pkg-manager: pip
           
