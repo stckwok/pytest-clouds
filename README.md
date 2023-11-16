@@ -1,5 +1,8 @@
 # pytest-clouds
-Project using pytest for local VM (and AWS Cloud9)
+- Project using pytest on AWS Cloud9
+- Integrated CI/CD using CircleCI 
+
+
 
 
 
