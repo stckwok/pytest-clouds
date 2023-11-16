@@ -23,3 +23,8 @@ jobs:
          command: |
             . venv/bin/activate
             make list
+
+workflows:
+  say-hello-workflow:
+    jobs:
+      - say-hello
