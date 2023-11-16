@@ -5,7 +5,7 @@ jobs:
   # Job one with a unique name
   say_hello:
     docker:
-     - image: circleci/python:3.10.12
+     - image: cimg/base:2022.05
     working_directory : ~/repo
     
     steps:
