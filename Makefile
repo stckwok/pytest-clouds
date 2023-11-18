@@ -3,7 +3,7 @@ install:
 		pip install -r requirements.txt
 format:
 	#format code
-	black namecheck.py test_namecheck.py
+	#black namecheck.py test_namecheck.py
 lint:
 	pylint --disable=R,C namecheck.py
 test:
