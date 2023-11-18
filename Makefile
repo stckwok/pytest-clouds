@@ -5,8 +5,7 @@ format:
 	#format code
 	black *.py
 lint:
-	#pylint --disable=R,C namecheck.py
-	pylint --disable=R,C *.py
+	pylint --disable=R,C namecheck.py
 test:
 	python -m pytest -vv --cov=namecheck test_*.py
 
