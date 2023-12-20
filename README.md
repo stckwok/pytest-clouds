@@ -2,7 +2,8 @@
 
 # pytest-clouds
 - Project using pytest on AWS Cloud9
-- Integrated CI/CD using CircleCI 
+- Integrated CI/CD using CircleCI
+- Github action workflow specified by yml file (.github/workflows)
 
 
 
